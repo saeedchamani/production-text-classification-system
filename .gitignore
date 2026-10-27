@@ -1,11 +1,11 @@
 # Virtual environment
 .venv/
 
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 
-# Pytest
+# Tests
 .pytest_cache/
 
 # Jupyter
@@ -14,15 +14,16 @@ __pycache__/
 # Environment variables
 .env
 
-# OS files
-.DS_Store
-
-# VS Code local settings
+# VS Code
 .vscode/
+
+# OS
+.DS_Store
 
 # Trained models
 models/*.joblib
 models/*.pkl
 
-# Processed/generated data
-data/processed/*
+# Datasets
+data/raw/*.csv
+data/processed/*.csv
