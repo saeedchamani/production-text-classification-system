@@ -40,3 +40,6 @@ if __name__ == "__main__":
     result = predict_text(text)
 
     print(result)
+
+
+    

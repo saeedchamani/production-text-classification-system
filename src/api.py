@@ -24,10 +24,17 @@ class PredictionResponse(BaseModel):
     confidence: float
 
 
+@app.get("/")
+def root():
+    return {
+        "message": "Production Text Classification API"
+    }
+
+
 @app.get("/health")
 def health():
     return {
-        "status": "ok",
+        "status": "ok"
     }
 
 
